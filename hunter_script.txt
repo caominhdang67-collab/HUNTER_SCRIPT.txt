@@ -28,8 +28,8 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
--- TAB 1: Chức Năng 1 - 6
-local Tab1 = Window:CreateTab("Chức Năng 1 - 6", 4483362458)
+-- TAB 1: Chức Năng 1 - 5
+local Tab1 = Window:CreateTab("Chức Năng 1 - 5", 4483362458)
 
 local Section1 = Tab1:CreateSection("Mercury")
 local Button1 = Tab1:CreateButton({
@@ -55,11 +55,12 @@ local Button3 = Tab1:CreateButton({
    end,
 })
 
-local Section4 = Tab1:CreateSection("neverlose")
+-- Ô SỐ 4: Đã thay bằng KT pre
+local Section4 = Tab1:CreateSection("KT pre")
 local Button4 = Tab1:CreateButton({
-   Name = "neverlose",
+   Name = "KT pre",
    Callback = function()
-       loadstring(game:HttpGet("https://pastefy.app/ATPWcoEb/raw"))()
+       loadstring(game:HttpGet("https://pastefy.app/QhBgTfpc/raw"))()
    end,
 })
 
@@ -71,16 +72,16 @@ local Button5 = Tab1:CreateButton({
    end,
 })
 
-local Section6 = Tab1:CreateSection("xocu 1")
-local Button6 = Tab1:CreateButton({
+-- TAB 2: Chức Năng 6 - 10
+local Tab2 = Window:CreateTab("Chức Năng 6 - 10", 4483362458)
+
+local Section6 = Tab2:CreateSection("xocu 1")
+local Button6 = Tab2:CreateButton({
    Name = "xocu 1",
    Callback = function()
        loadstring(game:HttpGet("http://raw.githubusercontent.com/sladkoeshkaogg-svg/XOCU/refs/heads/main/XOCU.lua "))()
    end,
 })
-
--- TAB 2: Chức Năng 7 - 12
-local Tab2 = Window:CreateTab("Chức Năng 7 - 12", 4483362458)
 
 local Section7 = Tab2:CreateSection("apex v2")
 local Button7 = Tab2:CreateButton({
@@ -106,24 +107,9 @@ local Button9 = Tab2:CreateButton({
    end,
 })
 
-local Section10 = Tab2:CreateSection("oblivion")
+-- Ô SỐ 10: Đã thay bằng echo
+local Section10 = Tab2:CreateSection("echo")
 local Button10 = Tab2:CreateButton({
-   Name = "oblivion",
-   Callback = function()
-       loadstring(game:HttpGet("https://gist.githubusercontent.com/safonovmaksima-commits/65ca3fad4743c91ebbf5fadf5bebe066/raw/ed95e5a9b06de9b134422c0531e3aa406cd9af7b/vhr222"))()
-   end,
-})
-
-local Section11 = Tab2:CreateSection("KT pre")
-local Button11 = Tab2:CreateButton({
-   Name = "KT pre",
-   Callback = function()
-       loadstring(game:HttpGet("https://pastefy.app/QhBgTfpc/raw"))()
-   end,
-})
-
-local Section12 = Tab2:CreateSection("echo")
-local Button12 = Tab2:CreateButton({
    Name = "echo",
    Callback = function()
        loadstring(game:HttpGet("https://pastefy.app/p7bMX8Ak/raw?part=Echo%20Source.txt"))()
