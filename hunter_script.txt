@@ -111,3 +111,21 @@ local Button10 = Tab2:CreateButton({
        loadstring(game:HttpGet("https://gist.githubusercontent.com/safonovmaksima-commits/65ca3fad4743c91ebbf5fadf5bebe066/raw/ed95e5a9b06de9b134422c0531e3aa406cd9af7b/vhr222"))()
    end,
 })
+
+local Tab3 = Window:CreateTab("Chức Năng 11 - 12", 4483362458)
+
+local Section11 = Tab3:CreateSection("KT pre")
+local Button11 = Tab3:CreateButton({
+   Name = "KT pre",
+   Callback = function()
+       loadstring(game:HttpGet("https://pastefy.app/QhBgTfpc/raw"))()
+   end,
+})
+
+local Section12 = Tab3:CreateSection("echo")
+local Button12 = Tab3:CreateButton({
+   Name = "echo",
+   Callback = function()
+       loadstring(game:HttpGet("https://pastefy.app/p7bMX8Ak/raw?part=Echo%20Source.txt"))()
+   end,
+})
