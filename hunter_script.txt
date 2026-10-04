@@ -28,7 +28,8 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab1 = Window:CreateTab("Chức Năng 1 - 5", 4483362458)
+-- TAB 1: Chức Năng 1 - 6
+local Tab1 = Window:CreateTab("Chức Năng 1 - 6", 4483362458)
 
 local Section1 = Tab1:CreateSection("Mercury")
 local Button1 = Tab1:CreateButton({
@@ -70,15 +71,16 @@ local Button5 = Tab1:CreateButton({
    end,
 })
 
-local Tab2 = Window:CreateTab("Chức Năng 6 - 10", 4483362458)
-
-local Section6 = Tab2:CreateSection("xocu 1")
-local Button6 = Tab2:CreateButton({
+local Section6 = Tab1:CreateSection("xocu 1")
+local Button6 = Tab1:CreateButton({
    Name = "xocu 1",
    Callback = function()
        loadstring(game:HttpGet("http://raw.githubusercontent.com/sladkoeshkaogg-svg/XOCU/refs/heads/main/XOCU.lua "))()
    end,
 })
+
+-- TAB 2: Chức Năng 7 - 12
+local Tab2 = Window:CreateTab("Chức Năng 7 - 12", 4483362458)
 
 local Section7 = Tab2:CreateSection("apex v2")
 local Button7 = Tab2:CreateButton({
@@ -112,18 +114,16 @@ local Button10 = Tab2:CreateButton({
    end,
 })
 
-local Tab3 = Window:CreateTab("Chức Năng 11 - 12", 4483362458)
-
-local Section11 = Tab3:CreateSection("KT pre")
-local Button11 = Tab3:CreateButton({
+local Section11 = Tab2:CreateSection("KT pre")
+local Button11 = Tab2:CreateButton({
    Name = "KT pre",
    Callback = function()
        loadstring(game:HttpGet("https://pastefy.app/QhBgTfpc/raw"))()
    end,
 })
 
-local Section12 = Tab3:CreateSection("echo")
-local Button12 = Tab3:CreateButton({
+local Section12 = Tab2:CreateSection("echo")
+local Button12 = Tab2:CreateButton({
    Name = "echo",
    Callback = function()
        loadstring(game:HttpGet("https://pastefy.app/p7bMX8Ak/raw?part=Echo%20Source.txt"))()
